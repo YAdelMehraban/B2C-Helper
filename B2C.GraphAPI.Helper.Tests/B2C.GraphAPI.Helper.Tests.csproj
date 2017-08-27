@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SampleData\AllUsersFromAzureAd.json" />
+    <None Remove="SampleData\applicationResponse.json" />
+    <None Remove="SampleData\extensionAttributesResponse.json" />
+    <None Remove="SampleData\testUser.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SampleData\AllUsersFromAzureAd.json" />
+    <EmbeddedResource Include="SampleData\applicationResponse.json" />
+    <EmbeddedResource Include="SampleData\extensionAttributesResponse.json" />
+    <EmbeddedResource Include="SampleData\testUser.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="4.19.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="NSubstitute" Version="2.0.3" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2C.GraphAPI.Helper\B2C.GraphAPI.Helper.csproj" />
+  </ItemGroup>
+
+</Project>

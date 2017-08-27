@@ -1,0 +1,69 @@
+﻿{
+  "odata.metadata": "https://graph.windows.net/tsocbc.onmicrosoft.com/$metadata#directoryObjects/Microsoft.DirectoryServices.Application",
+  "value": [
+    {
+      "odata.type": "Microsoft.DirectoryServices.Application",
+      "objectType": "Application",
+      "objectId": "506ee052-5f01-44ff-bf02-610584a5f6a0",
+      "deletionTimestamp": null,
+      "acceptMappedClaims": null,
+      "addIns": [],
+      "appId": "10746c50-abbb-453f-b2f2-da27fc735113",
+      "appRoles": [],
+      "availableToOtherTenants": false,
+      "displayName": "b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+      "errorUrl": null,
+      "groupMembershipClaims": null,
+      "homepage": "https://extensions.cpim.windows.net",
+      "identifierUris": [
+        "https://extensions.cpim.windows.net"
+      ],
+      "keyCredentials": [],
+      "knownClientApplications": [],
+      "logoutUrl": null,
+      "oauth2AllowImplicitFlow": false,
+      "oauth2AllowUrlPathMatching": false,
+      "oauth2Permissions": [
+        {
+          "adminConsentDescription": "Allow the application to access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data. on behalf of the signed-in user.",
+          "adminConsentDisplayName": "Access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+          "id": "6fa13624-43ee-2222-bc18-be76abda0ba6",
+          "isEnabled": true,
+          "type": "User",
+          "userConsentDescription": "Allow the application to access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data. on your behalf.",
+          "userConsentDisplayName": "Access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+          "value": "user_impersonation"
+        }
+      ],
+      "oauth2RequirePostResponse": false,
+      "optionalClaims": null,
+      "passwordCredentials": [],
+      "publicClient": null,
+      "recordConsentConditions": null,
+      "replyUrls": [
+        "https://extensions.cpim.windows.net"
+      ],
+      "requiredResourceAccess": [
+        {
+          "resourceAppId": "00000002-0000-0000-c000-000000000000",
+          "resourceAccess": [
+            {
+              "id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
+              "type": "Role,Scope"
+            },
+            {
+              "id": "5778995a-e1bf-45b8-affa-663a9f3f4d04",
+              "type": "Role,Scope"
+            },
+            {
+              "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+              "type": "Scope"
+            }
+          ]
+        }
+      ],
+      "samlMetadataUrl": null,
+      "tokenEncryptionKeyId": null
+    }
+  ]
+}
